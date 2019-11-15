@@ -8,10 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/Azure/azure-pipeline-go/pipeline"
-	"github.com/Azure/azure-storage-queue-go/azqueue"
 	"net/http"
 	"strconv"
+
+	"github.com/Azure/azure-pipeline-go/pipeline"
+	"github.com/ingrammicro/azure-storage-queue-go/azqueue"
 )
 
 // https://godoc.org/github.com/fluhus/godoc-tricks

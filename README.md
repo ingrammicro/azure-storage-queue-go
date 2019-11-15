@@ -13,24 +13,24 @@ This repository contains the open source Queue SDK for Go.
 ## Getting Started
 * If you don't already have it, install [the Go distribution](https://golang.org/dl/)
 * Get the SDK, with any method you prefer:
-    * Go Get: ```go get github.com/Azure/azure-storage-queue-go/azqueue```
-    * Dep: add ```github.com/Azure/azure-storage-queue-go``` to Gopkg.toml:
+    * Go Get: ```go get github.com/ingrammicro/azure-storage-queue-go/azqueue```
+    * Dep: add ```github.com/ingrammicro/azure-storage-queue-go``` to Gopkg.toml:
         ```
         [[constraint]]
           version = "0.2.0"
-          name = "github.com/Azure/azure-storage-queue-go"
+          name = "github.com/ingrammicro/azure-storage-queue-go"
         ```
     * Module: simply import the SDK and Go will download it for you
 * Use the SDK:
-```import "github.com/Azure/azure-storage-queue-go/azqueue"```
+```import "github.com/ingrammicro/azure-storage-queue-go/azqueue"```
 
 ## Version Table
 * If you are looking to use a specific version of the Storage Service, please refer to the following table: 
 
 | Service Version | Corresponding SDK Version | Import Path                                                |
 |-----------------|---------------------------|------------------------------------------------------------|
-| 2017-07-29      | 0.1.0                     | github.com/Azure/azure-storage-queue-go/2017-07-29/azqueue |
-| 2018-03-28      | 0.2.0                     | github.com/Azure/azure-storage-queue-go/azqueue            |
+| 2017-07-29      | 0.1.0                     | github.com/ingrammicro/azure-storage-queue-go/2017-07-29/azqueue |
+| 2018-03-28      | 0.2.0                     | github.com/ingrammicro/azure-storage-queue-go/azqueue            |
 |                 |                           |                                                            |
 
 ## SDK Architecture
@@ -39,7 +39,7 @@ This repository contains the open source Queue SDK for Go.
  the ServiceURL, QueueURL, MessagesURL, and MessageIDURL types.
 
 ## Code Samples
-* [Queue Storage Examples](https://godoc.org/github.com/Azure/azure-storage-queue-go/azqueue#pkg-examples)
+* [Queue Storage Examples](https://godoc.org/github.com/ingrammicro/azure-storage-queue-go/azqueue#pkg-examples)
 
 ## License
 This project is licensed under MIT.
@@ -57,7 +57,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-[GoDoc]: https://godoc.org/github.com/Azure/azure-storage-queue-go/2017-07-29/azqueue
-[GoDoc Widget]: https://godoc.org/github.com/Azure/azure-storage-queue-go/2017-07-29/azqueue?status.svg
+[GoDoc]: https://godoc.org/github.com/ingrammicro/azure-storage-queue-go/2017-07-29/azqueue
+[GoDoc Widget]: https://godoc.org/github.com/ingrammicro/azure-storage-queue-go/2017-07-29/azqueue?status.svg
 [Travis]: https://travis-ci.org/Azure/azure-storage-queue-go
 [Travis Widget]: https://travis-ci.org/Azure/azure-storage-queue-go.svg?branch=master

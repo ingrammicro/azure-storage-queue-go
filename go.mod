@@ -1,4 +1,4 @@
-module github.com/Azure/azure-storage-queue-go
+module github.com/ingrammicro/azure-storage-queue-go
 
 require (
 	github.com/Azure/azure-pipeline-go v0.1.8

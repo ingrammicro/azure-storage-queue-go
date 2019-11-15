@@ -4,14 +4,15 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Azure/azure-storage-queue-go/azqueue"
-	chk "gopkg.in/check.v1"
 	"net/url"
 	"os"
 	"runtime"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/ingrammicro/azure-storage-queue-go/azqueue"
+	chk "gopkg.in/check.v1"
 )
 
 const (
@@ -20,8 +21,11 @@ const (
 
 // Hook up gocheck into the "go test" runner.
 func Test(t *testing.T) { chk.TestingT(t) }
+
 var ctx = context.Background()
+
 type queueSuite struct{}
+
 var _ = chk.Suite(&queueSuite{})
 
 func getGenericCredential(accountType string) (*azqueue.SharedKeyCredential, error) {
@@ -103,4 +107,4 @@ Set access condition and try op that always fails
 test failing ACL
 time to live - test that we send this properly
 visibility timeout
- */
+*/

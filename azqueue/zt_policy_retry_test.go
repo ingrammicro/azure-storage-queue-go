@@ -12,7 +12,7 @@ import (
 	chk "gopkg.in/check.v1"
 
 	"github.com/Azure/azure-pipeline-go/pipeline"
-	"github.com/Azure/azure-storage-queue-go/azqueue"
+	"github.com/ingrammicro/azure-storage-queue-go/azqueue"
 )
 
 // For testing docs, see: https://labix.org/gocheck

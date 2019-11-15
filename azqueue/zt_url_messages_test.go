@@ -1,9 +1,10 @@
 package azqueue_test
 
 import (
-	"github.com/Azure/azure-storage-queue-go/azqueue"
-	chk "gopkg.in/check.v1"
 	"time"
+
+	"github.com/ingrammicro/azure-storage-queue-go/azqueue"
+	chk "gopkg.in/check.v1"
 )
 
 // verify the normal operations of enqueueing messages
